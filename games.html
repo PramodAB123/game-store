@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameHub - Store</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation (same as index.html) -->
+    <nav class="navbar">
+        <!-- Copy navigation from index.html -->
+    </nav>
+
+    <!-- Store Content -->
+    <section class="store-content">
+        <div class="store-header">
+            <h1>Game Store</h1>
+            <div class="store-filters">
+                <select id="genre-filter">
+                    <option value="all">All Genres</option>
+                    <option value="action">Action</option>
+                    <option value="adventure">Adventure</option>
+                    <option value="rpg">RPG</option>
+                    <option value="fps">FPS</option>
+                    <option value="strategy">Strategy</option>
+                </select>
+                <select id="price-filter">
+                    <option value="all">All Prices</option>
+                    <option value="free">Free</option>
+                    <option value="under20">Under $20</option>
+                    <option value="20-50">$20 - $50</option>
+                    <option value="over50">Over $50</option>
+                </select>
+                <input type="text" id="search-input" placeholder="Search games...">
+            </div>
+        </div>
+        
+        <div class="games-grid" id="all-games">
+            <!-- All games will be loaded here via JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer (same as index.html) -->
+    <footer class="footer">
+        <!-- Copy footer from index.html -->
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/store.js"></script>
+</body>
+</html>
